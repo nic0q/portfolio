@@ -20,16 +20,16 @@ export const Home = () => {
               View Work
             </button>
           </a>
-          <a href="https://github.com/nic0q" target="_blank">
+          <a href="https://github.com/nic0q" target="_blank" rel="noreferrer">
             <FiGithub className="m-3 text-3xl sm:text-4xl lg:text-5xl" />
           </a>
           <a
             href="https://www.linkedin.com/in/n%C3%ADcolas-farf%C3%A1n-cheneaux-14365b15b/"
-            target={"_blank"}
+            target={"_blank"} rel="noreferrer"
           >
             <FiLinkedin className="m-3 text-3xl sm:text-4xl lg:text-5xl" />
           </a>
-          <a href="https://twitter.com/CheneauxNicolas" target={"_blank"}>
+          <a href="https://twitter.com/CheneauxNicolas" target={"_blank"} rel="noreferrer">
             <FiTwitter className="m-3 text-3xl sm:text-4xl lg:text-5xl" />
           </a>
         </div>

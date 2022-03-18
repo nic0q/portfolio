@@ -9,7 +9,7 @@ import {
   FaLaravel,
   FaBootstrap,
 } from "react-icons/fa"
-import { SiJavascript, SiPostgresql, SiMongodb } from "react-icons/si"
+import { SiJavascript, SiPostgresql} from "react-icons/si"
 
 export const ProjectCard = ({
   name = "Project Name",
@@ -26,7 +26,7 @@ export const ProjectCard = ({
           className="rounded-xl w-screen md:h-[40%]"
           src={img}
           alt="Imagen del Proyecto"
-        ></img> 
+        ></img>
         <div className="p-4">
           <h2 className="text-2xl pb-4 font-bold text-center ">{name}</h2>
           <div className="bg-[#262644] p-1">
@@ -36,14 +36,14 @@ export const ProjectCard = ({
             {github === "" ? (
               ""
             ) : (
-              <a href={github} target={"_blank"}>
+              <a href={github} target={"_blank"} rel="noreferrer">
                 <FaGithub className="m-3 text-4xl"></FaGithub>
               </a>
             )}
             {page === "" ? (
               ""
             ) : (
-              <a href={page} target={"_blank"}>
+              <a href={page} target={"_blank"} rel="noreferrer">
                 <FaLink className="m-3 text-4xl"></FaLink>
               </a>
             )}

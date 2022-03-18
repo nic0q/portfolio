@@ -1,5 +1,4 @@
 import { SubTitulo } from "./SubTitulo"
-import { RiEnglishInput } from "react-icons/ri" // Delete in the future if is unused
 
 export const AboutMe = () => {
   return (
@@ -19,7 +18,7 @@ export const AboutMe = () => {
             other developers. I'm looking for any opportunity to adquire
             experience in this area. I specialize in React Apps, with CSS
             frameworks. I'm not english native speaker, but I can normally
-            express my ideas , discusing and writing in english.
+            express my ideas, writing and talking.
           </h3>
         </div>
       </div>

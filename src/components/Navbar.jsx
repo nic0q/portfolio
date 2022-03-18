@@ -41,7 +41,13 @@ export const Navbar = () => {
         </li>
         <li>
           <button className="font-bold border-none p-1 px-6 text-xl py-2 rounded-full bg-[#E41476]">
-            Download CV
+            <a
+              target={"_blank"}
+              href="https://drive.google.com/file/d/11Q-Tgasotsv1H2Q4PQRglJRCUz_mik4T/view?usp=sharing"
+              rel="noreferrer"
+            >
+              Download CV
+            </a>
           </button>
         </li>
       </ul>
@@ -75,11 +81,14 @@ export const Navbar = () => {
             Contact
           </a>
         </li>
-        {/* <button className=" my-8 font-bold border-none p-1 px-6 text-lg rounded-full bg-purple-700">
-            Download CV
-          </button> */}
         <button className="my-8 font-bold border-none p-1 px-6 text-xl py-2 rounded-full bg-[#E41476]">
-          Download CV
+          <a
+            target={"_blank"}
+            href="https://drive.google.com/file/d/11Q-Tgasotsv1H2Q4PQRglJRCUz_mik4T/view?usp=sharing"
+            rel="noreferrer"
+          >
+            Download CV
+          </a>
         </button>
       </ul>
     </div>
