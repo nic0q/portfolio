@@ -11,7 +11,7 @@ export const AboutMe = () => {
             Hi. I'm Nícolas, nice to meet you. Please take a look around.
           </h2> */}
           <h3 className="text-3xl text-justify mt-1">
-            I'm a Informatics Engineering student and appasionate for the Web
+            I'm a Software Engineering student and appasionate for the Web
             Development from Chile, in the last summer I've build some projects
             to improve my skills in web sites and aplications development, I
             wish in the future collaborate in bigger projects and interact with
