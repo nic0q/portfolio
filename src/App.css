@@ -1,7 +1,35 @@
+html{
+  scroll-behavior: smooth;
+}
 .App {
   text-align: center;
-}
 
+}
+.card:hover{
+  box-shadow:
+  0 0 5px #fff,
+  0px 0 25px #f0f,
+  0px 0 25px #0ff;
+}
+::placeholder{
+  font-weight:600;
+}
+.footer {
+  background-image: linear-gradient(
+    179.54deg,
+    #04001E,
+    rgb(30, 7, 63) 56.42%,
+    #E41476 113.51%
+  );
+}
+.mainPage{
+  background-image: linear-gradient(
+    5deg,
+    #04001e,
+    rgb(30, 7, 63) 56.42%,
+    #E41476 113.51%
+  );
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +63,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
 }
