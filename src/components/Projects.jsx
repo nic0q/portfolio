@@ -6,7 +6,7 @@ export const Projects = () => {
   const [loadMore, setLoadMore] = useState(false)
 
   const handleClick = () => {
-    setLoadMore(true)
+    loadMore ? setLoadMore(false) : setLoadMore(true)
   }
   return (
     <div id="projects" className="bg-[#04001E] text-gray-100 md:pt-16">
@@ -76,23 +76,53 @@ export const Projects = () => {
             </div>
           )}
         </div>
-        <div className="flex items-center justify-center mt-2 mb-14">
-          <svg
-            className={
-              loadMore
-                ? "hidden"
-                : "cursor-pointer w-14 h-14 bg-[#1F1F3A] border-[1px] border-[#75618d] border-solid rounded-full p-1 text-[#da71b7] animate-bounce"
-            }
-            fill="none"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            onClick={handleClick}
-          >
-            <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-          </svg>
+        <div className="flex items-center justify-center mb-14">
+          <div className="flex flex-col items-center">
+
+            <svg
+              className={
+                loadMore
+                  ? "hidden"
+                  : "cursor-pointer w-14 h-14 bg-[#1F1F3A] border-[1px] border-[#75618d] border-solid rounded-full p-1 text-[#da71b7] animate-bounce"
+              }
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              onClick={handleClick}
+            >
+              <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+            </svg>
+            <p
+              className={
+                loadMore ? "hidden" : "text-[#da71b7] pl-1 animate-pulse"
+              }
+            >
+              see more
+            </p>
+            <br></br>
+            <br></br>
+          </div>
+          <div className="rotate-180">
+            <svg
+              className={
+                !loadMore
+                  ? "hidden"
+                  : " cursor-pointer w-14 h-14 bg-[#1F1F3A] border-[1px] border-[#75618d] border-solid rounded-full p-1 text-[#da71b7] animate-bounce"
+              }
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              onClick={handleClick}
+            >
+              <path d="M19 14l-7 7m0 0l-7-7m7 7V3 "></path>
+            </svg>
+          </div>
         </div>
       </div>
     </div>

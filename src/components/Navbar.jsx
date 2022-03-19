@@ -1,10 +1,10 @@
 import React from "react"
 import { useState } from "react"
-import Hamburger from "./Hamburger"
+import { FaTimes } from "react-icons/fa"
+import { GiHamburgerMenu } from "react-icons/gi"
 import Logo from "../assets/Images/logo.png"
 export const Navbar = () => {
   const [nav, setNav] = useState(false)
-  const [scroll, setScroll] = useState(false)
   const handleClick = () => {
     setNav(!nav)
   }
@@ -14,9 +14,12 @@ export const Navbar = () => {
         className="text-white md:hidden z-10 text-3xl m-3 flex fixed bottom-0 right-0"
         onClick={handleClick}
       >
-        {nav ? <Hamburger click={scroll} /> : <Hamburger />}
+        {nav ? (
+          <FaTimes className="rounded-xl w-14 h-14 text-[#db2777] bg-[#04001E] p-[2px] pb-[3px] mr-1" />
+        ) : (
+          <GiHamburgerMenu className="rounded-xl w-14 h-14 text-[#db2777] bg-[#04001E] p-[2px] pb-[3px] mr-1" />
+        )}
       </div>
-      {/* I've to consider hide or show de Logo in the phone mode */}
       <a href="#home">
         <img
           className="justify-start md:flex  hidden"

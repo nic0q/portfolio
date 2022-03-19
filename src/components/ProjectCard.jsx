@@ -30,7 +30,7 @@ export const ProjectCard = ({
         <div className="p-4">
           <h2 className="text-2xl pb-4 font-bold text-center ">{name}</h2>
           <div className="bg-[#262644] p-1">
-            <p className="text-lg font-light text-center">{details}</p>
+            <p className="font-light text-center">{details}</p>
           </div>
           <div className="flex justify-center text-white">
             {github === "" ? (

@@ -11,8 +11,8 @@ export const Home = () => {
         <h2 className="text-6xl sm:text-7xl lg:text-8xl text-white font-bold">
           Nícolas Farfán
         </h2>
-        <h2 className="my-3 text-3xl sm:text-4xl lg:text-5xl  lg:ml-1 font-bold text-[#8892b0]">
-          I'm a Software Developer
+        <h2 className="my-3 text-3xl sm:text-4xl lg:text-5xl lg:ml-1 font-bold text-[#8892b0]">
+          I'm a Software Engineering Student 
         </h2>
         <div className="flex mt-6 items-center text-white text-4xl">
           <a href="#projects">

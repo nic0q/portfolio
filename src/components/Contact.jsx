@@ -6,10 +6,15 @@ export const Contact = () => {
       id="contact"
       className="w-full pb-16 flex flex-col text-white footer items-center justify-center text-center"
     >
-      <form method='POST' action="https://getform.io/f/3f6554c3-4748-4ade-bca5-722d58c5ba5b" className="md:max-w-[570px] max-w-[400px] w-full">
+      <form
+        method="POST"
+        action="https://getform.io/f/3f6554c3-4748-4ade-bca5-722d58c5ba5b"
+        className="md:max-w-[570px] max-w-[400px] w-full"
+      >
         <SubTitulo title={"Contact"}></SubTitulo>
         <p className="font-light pt-6 text-center">
-          Submit the form bellow or send me an email - nicolascheneaux@gmail.com
+          Submit the form bellow or send me an email
+          <p className="font-bold">nicolascheneaux@gmail.com</p>
         </p>
         <div className="text-black flex flex-col m-5">
           <input
@@ -35,7 +40,7 @@ export const Contact = () => {
           <textarea
             type="text"
             name="message"
-            className="items-start m-2 h-48 p-3 rounded-xl  form-control
+            className="items-start m-2 h-72 p-3 rounded-xl  form-control
             caret-[#DB077B]
             border-2 border-solid border-white  
             transition
