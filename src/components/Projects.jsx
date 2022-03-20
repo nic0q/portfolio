@@ -50,8 +50,8 @@ export const Projects = () => {
                 img="https://user-images.githubusercontent.com/91075814/158311197-12638b3d-020a-41bc-9bc6-867cbacdda4f.gif"
                 name="Random Questionary"
                 details="Consults an API to get random questions, at the end give the right and wrong answers."
-                page="https://nic0q.github.io/Memory-Game/"
-                github={"https://github.com/nic0q/Memory-Game"}
+                page="https://github.com/nic0q/Random-Questionary"
+                github={"https://nic0q.github.io/Random-Questionary/"}
                 tech={["react"]}
               ></ProjectCard>
               <ProjectCard
@@ -78,7 +78,6 @@ export const Projects = () => {
         </div>
         <div className="flex items-center justify-center mb-14">
           <div className="flex flex-col items-center">
-
             <svg
               className={
                 loadMore
