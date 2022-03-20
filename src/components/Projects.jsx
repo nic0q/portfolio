@@ -50,8 +50,8 @@ export const Projects = () => {
                 img="https://user-images.githubusercontent.com/91075814/158311197-12638b3d-020a-41bc-9bc6-867cbacdda4f.gif"
                 name="Random Questionary"
                 details="Consults an API to get random questions, at the end give the right and wrong answers."
-                page="https://github.com/nic0q/Random-Questionary"
-                github={"https://nic0q.github.io/Random-Questionary/"}
+                page="https://nic0q.github.io/Random-Questionary/"
+                github={"https://github.com/nic0q/Random-Questionary"}
                 tech={["react"]}
               ></ProjectCard>
               <ProjectCard
