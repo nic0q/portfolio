@@ -12,7 +12,7 @@ export const Home = () => {
           Nícolas Farfán
         </h2>
         <h2 className="my-3 text-3xl sm:text-4xl lg:text-5xl lg:ml-1 font-bold text-[#8892b0]">
-          I'm a Software Engineering Student 
+          I am a Software Engineering Student
         </h2>
         <div className="flex mt-6 items-center text-white text-4xl">
           <a href="#projects">
@@ -25,11 +25,16 @@ export const Home = () => {
           </a>
           <a
             href="https://www.linkedin.com/in/n%C3%ADcolas-farf%C3%A1n-cheneaux-14365b15b/"
-            target={"_blank"} rel="noreferrer"
+            target={"_blank"}
+            rel="noreferrer"
           >
             <FiLinkedin className="m-3 text-3xl sm:text-4xl lg:text-5xl" />
           </a>
-          <a href="https://twitter.com/CheneauxNicolas" target={"_blank"} rel="noreferrer">
+          <a
+            href="https://twitter.com/CheneauxNicolas"
+            target={"_blank"}
+            rel="noreferrer"
+          >
             <FiTwitter className="m-3 text-3xl sm:text-4xl lg:text-5xl" />
           </a>
         </div>
