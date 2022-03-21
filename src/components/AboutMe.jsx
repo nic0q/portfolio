@@ -8,9 +8,9 @@ export const AboutMe = () => {
         <div className="flex-row flex lg:mt-16 mt-8">
           <h3 className="text-xl sm:text-2xl md:text-3xl text-justify mt-1 tracking-wide">
             I am a Software Developer and university student, passionate for the
-            Web Development from Chile, in the last summer I have build some
+            Web Development from Chile, in the last summer I have built some
             projects to improve my skills in web sites development, for in the
-            future collaborate in bigger projects and interact with other
+            future collaborate in big projects and interact with other
             developers. So now I am looking for any opportunity to adquire
             experience in this area, mainly using
             <span className="text-[#00D6FE]">{" React"}</span>, and styling with
@@ -20,11 +20,11 @@ export const AboutMe = () => {
             <span className="text-white">{" Express"}</span> and relational
             databases In the university we work a lot with{" "}
             <span className="text-orange-500">{" MVC"}</span> pattern using and
-            also using multiple programming paradigms like POO, logic and
+            also using multiple programming paradigms like OOP, logic and
             declarative, in my projets I always focus on keep the intention of
             the code, thinking in a long term mantineable code keeping a
             declarative approach. In terms of language, I am not English native
-            speaker, but I can easily express my ideas, writing and talking.
+            speaker, but I can easily express my ideas, writing and speaking.
           </h3>
         </div>
       </div>
