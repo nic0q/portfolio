@@ -46,7 +46,7 @@ export const Navbar = () => {
           <button className="font-bold border-none p-1 px-6 text-xl py-2 rounded-full bg-[#E41476]">
             <a
               target={"_blank"}
-              href="https://drive.google.com/file/d/1Kow3viWglSU-NRir6WcAvIS_e-ML6bui/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ZahiwaDXRf7k_oyXkhcKu8tvtzB0MNqz/view?usp=sharing"
               rel="noreferrer"
             >
               Download CV
@@ -87,7 +87,7 @@ export const Navbar = () => {
         <button className="my-8 font-bold border-none p-1 px-6 text-xl py-2 rounded-full bg-[#E41476]">
           <a
             target={"_blank"}
-            href="https://drive.google.com/file/d/1Kow3viWglSU-NRir6WcAvIS_e-ML6bui/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ZahiwaDXRf7k_oyXkhcKu8tvtzB0MNqz/view?usp=sharing"
             rel="noreferrer"
           >
             Download CV
