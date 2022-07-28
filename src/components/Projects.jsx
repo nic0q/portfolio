@@ -14,27 +14,26 @@ export const Projects = () => {
         <SubTitulo title={"Projects"}></SubTitulo>
         <div className="w-full grid gap-12 grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 py-12">
           <ProjectCard
+            img="https://user-images.githubusercontent.com/91075814/158313040-ac313fa3-be60-4357-aa47-b5825dcf8035.gif"
+            name="Never Be Alone"
+            details="A denounces portal, publish a denounce, see my denonuces and in what I am involved, roles."
+            github={"https://github.com/nic0q/Never-Be-Alone"}
+            tech={["springboot", "mysql", "vuejs"]}
+          ></ProjectCard>
+          <ProjectCard
+            img="https://user-images.githubusercontent.com/91075814/158313040-ac313fa3-be60-4357-aa47-b5825dcf8035.gif"
+            name="Mist"
+            details="A Steam clone with wishlist, admin CRUD, for sale games and shopcard simulation."
+            github={"https://github.com/nic0q/Mist"}
+            tech={["laravel", "postgresql", "bootstrap"]}
+          ></ProjectCard>          
+          <ProjectCard
             img="https://user-images.githubusercontent.com/91075814/158311732-11eaf0f5-6b4f-4c2e-b9c3-b63401a8bad0.gif"
             name="Memory Game"
             details="A typical memory game with a menu token's skins and grid personalization."
             page="https://nic0q.github.io/Memory-Game/"
             github={"https://github.com/nic0q/Memory-Game"}
             tech={["react"]}
-          ></ProjectCard>
-          <ProjectCard
-            img="https://user-images.githubusercontent.com/91075814/158310072-2786877e-ab62-4f6d-b2be-d45e257da05a.gif"
-            name="Linked List Animation"
-            details="A LinkedList animation visualizer with delete, add, change speed, and more custom features."
-            page="https://nic0q.github.io/Linked-List-Animation/"
-            github={"https://nic0q.github.io/Linked-List-Animation/"}
-            tech={["html", "css", "js"]}
-          ></ProjectCard>
-          <ProjectCard
-            img="https://user-images.githubusercontent.com/91075814/158313040-ac313fa3-be60-4357-aa47-b5825dcf8035.gif"
-            name="Mist"
-            details="Fullstack Laravel web, db migrations, CRUD, UX interface, Authentication, Shop, Hierarchy."
-            github={"https://github.com/nic0q/Mist"}
-            tech={["laravel", "postgresql", "bootstrap"]}
           ></ProjectCard>
           {loadMore ? (
             <>
@@ -60,6 +59,14 @@ export const Projects = () => {
                 details="An interface that calcules the weighted average of all grades, allows ADD, DELETE grades."
                 page="https://nic0q.github.io/Cuanto-Me-Falta/"
                 github={"https://github.com/nic0q/Cuanto-Me-Falta"}
+                tech={["html", "css", "js"]}
+              ></ProjectCard>
+              <ProjectCard
+                img="https://user-images.githubusercontent.com/91075814/158310072-2786877e-ab62-4f6d-b2be-d45e257da05a.gif"
+                name="Linked List Animation"
+                details="A LinkedList animation visualizer with delete, add, change speed, and more custom features."
+                page="https://nic0q.github.io/Linked-List-Animation/"
+                github={"https://nic0q.github.io/Linked-List-Animation/"}
                 tech={["html", "css", "js"]}
               ></ProjectCard>
             </>

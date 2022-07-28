@@ -4,8 +4,7 @@ import JS from "../assets/Images/javascript.png"
 import ReactImg from "../assets/Images/react.png"
 import Node from "../assets/Images/node.png"
 import Git from "../assets/Images/git.png"
-import Mongo from "../assets/Images/mongo.png"
-import PostgreSQL from "../assets/Images/postgresql.png"
+import Mysql from "../assets/Images/mysql.png"
 import TailWind from "../assets/Images/tailwind.png"
 import Laravel from "../assets/Images/laravel.png"
 import { SubTitulo } from "./SubTitulo"
@@ -47,15 +46,10 @@ export default function Skills() {
             name="Node.js"
             img={Node}
           ></Skill>
-          {/* <Skill
-            shadowColor={"shadow-[#91da87] hover:shadow-[#94ec61] "}
-            name="MongoDB"
-            img={Mongo}
-          ></Skill> */}
           <Skill
             shadowColor={"shadow-[#5d82af] hover:shadow-[#5d82af] "}
-            name="PostgreSQL"
-            img={PostgreSQL}
+            name="MySQL"
+            img={Mysql}
           ></Skill>
           <Skill
             shadowColor={"shadow-[#FF291A] hover:shadow-[#FF291A] "}

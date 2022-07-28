@@ -8,8 +8,10 @@ import {
   FaNodeJs,
   FaLaravel,
   FaBootstrap,
+  FaVuejs
 } from "react-icons/fa"
-import { SiJavascript, SiPostgresql} from "react-icons/si"
+import { SiJavascript, SiPostgresql, SiSpringboot} from "react-icons/si"
+import {GrMysql} from "react-icons/gr"
 
 export const ProjectCard = ({
   name = "Project Name",
@@ -65,11 +67,18 @@ export const ProjectCard = ({
                   <FaLaravel key={e} className="mb-1 mr-1 text-xl" />
                 ) : e === "postgresql" ? (
                   <SiPostgresql key={e} className="mb-1 mr-1 text-xl" />
+                ) : e === "mysql" ? (
+                  <GrMysql key={e} className="mb-1 mr-1 text-xl" />
                 ) : e === "bootstrap" ? (
                   <FaBootstrap key={e} className="mb-1 mr-1 text-xl" />
+                ) : e === "vuejs" ? (
+                  <FaVuejs key={e} className="mb-1 mr-1 text-xl" />
                 ) : e === "mongodb" ? (
                   <FaBootstrap key={e} className="mb-1 mr-1 text-xl" />
-                ) : (
+                ) : e === "springboot" ? (
+                  <SiSpringboot key={e} className="mb-1 mr-1 text-xl" />
+                )
+                : (
                   ""
                 )
               )}
