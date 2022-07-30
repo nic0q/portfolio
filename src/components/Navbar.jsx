@@ -9,7 +9,7 @@ export const Navbar = () => {
     setNav(!nav)
   }
   return (
-    <div className="z-10 fixed w-full h-[70px] flex items-center px-w bg-transparent justify-evenly text-xl md:bg-[#06002D]">
+    <div className="z-10 fixed w-full h-[70px] flex items-center px-w bg-transparent justify-evenly text-xl md:bg-[#06042c]">
       <div
         className="text-white md:hidden z-10 text-3xl m-3 flex fixed bottom-0 right-0"
         onClick={handleClick}
@@ -43,16 +43,29 @@ export const Navbar = () => {
           <a href="#contact">Contact</a>
         </li>
         <li>
-          <button className="font-bold border-none p-1 px-6 text-xl py-2 rounded-full bg-[#E41476]">
+          <button className="font-bold border-none p-1 px-3 text-xl py-2 rounded-full bg-[#E41476]">
             <a
               target={"_blank"}
-              href="https://drive.google.com/file/d/1ZahiwaDXRf7k_oyXkhcKu8tvtzB0MNqz/view?usp=sharing"
+              href="https://drive.google.com/file/d/1NOR8T9LKNtmHoWTI877jPu8yj-xIrEpX/view?usp=sharing" // English version
               rel="noreferrer"
             >
-              Download CV
+              <span>CV GDrive</span>
             </a>
           </button>
-        </li>
+        </li>        
+        {/* Spanish version */}
+        {/* <li>
+          <button className="font-bold border-none p-1 px-3 text-xl py-2 rounded-full bg-[#E41476]">
+            <a
+              target={"_blank"}
+              href="https://drive.google.com/file/d/1NOR8T9LKNtmHoWTI877jPu8yj-xIrEpX/view?usp=sharing" 
+              rel="noreferrer"
+            >
+              CV
+              <span className="font-style: italic"> spanish</span>
+            </a>
+          </button>
+        </li> */}
       </ul>
 
       {/* Mobile Responsibe */}

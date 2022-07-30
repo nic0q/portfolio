@@ -14,18 +14,18 @@ export const Projects = () => {
         <SubTitulo title={"Projects"}></SubTitulo>
         <div className="w-full grid gap-12 grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 py-12">
           <ProjectCard
-            img="https://user-images.githubusercontent.com/91075814/158313040-ac313fa3-be60-4357-aa47-b5825dcf8035.gif"
+            img="https://user-images.githubusercontent.com/91075814/181865490-104125d6-655b-42f4-87d5-74054d37dc0a.gif"
             name="Never Be Alone"
-            details="A denounces portal, publish a denounce, see my denonuces and in what I am involved, roles."
+            details="University denounces portal, publish a denounce, see my denonuces, role."
             github={"https://github.com/nic0q/Never-Be-Alone"}
-            tech={["springboot", "mysql", "vuejs"]}
+            tech={["java","springboot", "mysql", "vuejs"]}
           ></ProjectCard>
           <ProjectCard
             img="https://user-images.githubusercontent.com/91075814/158313040-ac313fa3-be60-4357-aa47-b5825dcf8035.gif"
             name="Mist"
             details="A Steam clone with wishlist, admin CRUD, for sale games and shopcard simulation."
             github={"https://github.com/nic0q/Mist"}
-            tech={["laravel", "postgresql", "bootstrap"]}
+            tech={["php", "laravel", "postgresql", "bootstrap"]}
           ></ProjectCard>          
           <ProjectCard
             img="https://user-images.githubusercontent.com/91075814/158311732-11eaf0f5-6b4f-4c2e-b9c3-b63401a8bad0.gif"

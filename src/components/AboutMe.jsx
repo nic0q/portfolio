@@ -6,7 +6,7 @@ export const AboutMe = () => {
       <div className="max-w-[1000px] mx-auto p-4 sm:pt-20 flex flex-col w-full">
         <SubTitulo title={"About Me"}></SubTitulo>
         <div className="flex-row flex lg:mt-16 mt-8">
-          <h3 className="text-xl sm:text-2xl md:text-3xl text-justify mt-1 tracking-wide">
+          <h3 className="text-lg sm:text-xl md:text-2xl text-justify mt-1 tracking-wide">
             I am a Software Developer and university student, passionate for the
             Web Development from Chile, in the last summer I have built some
             projects to improve my skills in web sites development, for in the
@@ -23,7 +23,7 @@ export const AboutMe = () => {
             also using multiple programming paradigms like OOP, logic and
             declarative, in my projets I always focus on keep the intention of
             the code, thinking in a long term mantineable code keeping a
-            declarative approach. In terms of language, I am not English native
+            declarative approach. In terms of language, I am not <span className="text-[#f346ce]">{" English"}</span>,{" "} native
             speaker, but I can easily express my ideas, writing and speaking.
           </h3>
         </div>

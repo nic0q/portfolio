@@ -12,6 +12,7 @@ import {
 } from "react-icons/fa"
 import { SiJavascript, SiPostgresql, SiSpringboot} from "react-icons/si"
 import {GrMysql} from "react-icons/gr"
+import {DiJava, DiPhp} from "react-icons/di"
 
 export const ProjectCard = ({
   name = "Project Name",
@@ -77,6 +78,10 @@ export const ProjectCard = ({
                   <FaBootstrap key={e} className="mb-1 mr-1 text-xl" />
                 ) : e === "springboot" ? (
                   <SiSpringboot key={e} className="mb-1 mr-1 text-xl" />
+                ) : e === "java" ? (
+                  <DiJava key={e} className="mb-1 mr-1 text-xl" />
+                ) : e === "php" ? (
+                  <DiPhp key={e} className="mb-1 mr-1 text-xl" />
                 )
                 : (
                   ""
