@@ -13,9 +13,8 @@ export const Contact = () => {
       >
         <SubTitulo title={"Contact"}></SubTitulo>
         <p className="font-light pt-6 text-center">
-          Submit the form bellow or send me an email
-          <p className="font-bold">nicolascheneaux@gmail.com</p>
-        </p>
+          Submit the form bellow or send me an email </p>
+        <p className="font-semibold">nicolascheneaux@gmail.com</p>
         <div className="text-black flex flex-col m-5">
           <input
             type="text"
@@ -49,7 +48,7 @@ export const Contact = () => {
             placeholder="Message"
           ></textarea>
         </div>
-        <button className="font-bold border-none p-1 px-6 text-xl py-2 rounded-full bg-[#DB077B]">
+        <button className="font-bold border-none p-1 px-6 text-xl py-2 rounded-full bg-[#04001E]">
           Let's Collaborate
         </button>
       </form>

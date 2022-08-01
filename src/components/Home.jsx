@@ -1,4 +1,6 @@
 import { FiGithub, FiTwitter, FiLinkedin } from "react-icons/fi"
+import {GrSpotify} from "react-icons/gr"
+
 import React from "react"
 
 export const Home = () => {
@@ -37,6 +39,13 @@ export const Home = () => {
           >
             <FiTwitter className="m-3 text-3xl sm:text-4xl lg:text-5xl" />
           </a>
+          <a
+            href="https://open.spotify.com/user/nicolascheneaux"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <GrSpotify className="m-3 text-3xl sm:text-4xl lg:text-5xl" />
+          </a>          
         </div>
       </div>
     </div>

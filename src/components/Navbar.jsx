@@ -8,6 +8,7 @@ export const Navbar = () => {
   const handleClick = () => {
     setNav(!nav)
   }
+  const CV_LINK = "https://drive.google.com/file/d/1NOR8T9LKNtmHoWTI877jPu8yj-xIrEpX/view?usp=sharing"
   return (
     <div className="z-10 fixed w-full h-[70px] flex items-center px-w bg-transparent justify-evenly text-xl md:bg-[#06042c]">
       <div
@@ -46,7 +47,7 @@ export const Navbar = () => {
           <button className="font-bold border-none p-1 px-3 text-xl py-2 rounded-full bg-[#E41476]">
             <a
               target={"_blank"}
-              href="https://drive.google.com/file/d/1NOR8T9LKNtmHoWTI877jPu8yj-xIrEpX/view?usp=sharing" // English version
+              href={CV_LINK} // English version
               rel="noreferrer"
             >
               <span>CV GDrive</span>
@@ -100,10 +101,10 @@ export const Navbar = () => {
         <button className="my-8 font-bold border-none p-1 px-6 text-xl py-2 rounded-full bg-[#E41476]">
           <a
             target={"_blank"}
-            href="https://drive.google.com/file/d/1ZahiwaDXRf7k_oyXkhcKu8tvtzB0MNqz/view?usp=sharing"
+            href={CV_LINK}
             rel="noreferrer"
           >
-            Download CV
+            CV GDrive
           </a>
         </button>
       </ul>
