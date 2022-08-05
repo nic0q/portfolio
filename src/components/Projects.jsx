@@ -103,7 +103,7 @@ export const Projects = () => {
             </svg>
             <p
               className={
-                loadMore ? "hidden" : "text-[#da71b7] pl-1 animate-pulse"
+                loadMore ? "hidden" : "text-[#da71b7] pl-1 animate-pulse text-2xl"
               }
             >
               see more
