@@ -2,14 +2,14 @@ import "../App.css"
 
 export const Footer = () => {
   return (
-    <div className="flex w-full h-4/6 bg-[#04001E] text-white items-center justify-center text-center">
+    <div className="flex w-full h-4/6 bg-[#751C4A] text-white items-center justify-center text-center">
       <footer className=" h-24 pt-10">
-        <div className="flex flex-col">
+        <div className="flex flex-col font-bold">
           <h3>
-            Copyright © 2022 Nícolas Farfán
+            Copyright © 2024 Nícolas Farfán Cheneaux
           </h3>
           <h3>
-            Designed by Nícolas Farfán
+            Designed by Nícolas with ❤️
           </h3>
         </div>
       </footer>

@@ -9,7 +9,7 @@ export const Projects = () => {
     loadMore ? setLoadMore(false) : setLoadMore(true)
   }
   return (
-    <div id="projects" className="bg-[#04001E] text-gray-100 md:pt-16">
+    <div id="projects" className="bg-gray-900 text-gray-100 md:pt-16">
       <div className="font-semibold max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <SubTitulo title={"Projects"}></SubTitulo>
         <div className="w-full grid gap-12 grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 py-12">
