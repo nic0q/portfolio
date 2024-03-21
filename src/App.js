@@ -5,6 +5,7 @@ import { Projects } from "./components/Projects"
 import { Footer } from "./components/Footer"
 import { Contact } from "./components/Contact"
 import { AboutMe } from "./components/AboutMe"
+import { Experience } from "./components/Experience"
 import Skills from "./components/Skills"
 // Color Pallete: #10042D #160435 #04001E
 
@@ -14,6 +15,7 @@ function App() {
       <Navbar></Navbar>
       <Home></Home>
       <AboutMe></AboutMe>
+      <Experience></Experience>      
       <Skills></Skills>
       <Projects></Projects>
       <Contact></Contact>

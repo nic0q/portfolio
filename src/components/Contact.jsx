@@ -4,7 +4,7 @@ export const Contact = () => {
   return (
     <div
       id="contact"
-      className="w-full pb-16 flex flex-col text-white footer items-center justify-center text-center"
+      className="w-full pb-16 flex flex-col text-white footer items-center justify-center text-center h-screen"
     >
       <form
         method="POST"
