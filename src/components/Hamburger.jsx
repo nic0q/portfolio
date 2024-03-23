@@ -1,7 +1,7 @@
 import { useState } from "react"
 import "../assets/Styles/Hamburger.css"
 
-export default function Hamburger({ click }) {
+export default function Hamburger() {
   const [active, setActive] = useState(false)
   const handleClick = () => {
     setActive(!active)
